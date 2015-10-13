@@ -47,6 +47,10 @@ body, .view section {
   font-size: .7em;
 }
 
+.fartoosmall {
+  font-size: .5em;
+}
+
 
 section, .view head > title {
 }
