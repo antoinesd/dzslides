@@ -39,19 +39,6 @@ body, .view section {
   line-height: 1;
 }
 
-.smaller {
-  font-size: .8em;
-}
-
-.smallest {
-  font-size: .7em;
-}
-
-.fartoosmall {
-  font-size: .5em;
-}
-
-
 section, .view head > title {
 }
 
@@ -116,6 +103,7 @@ section.intro, section.terminal {
 section.intro h1,
 section.intro h2 {
   color: #FEFEFE;
+  text-transform: lowercase;
   line-height: .7em;
   text-align: left;
   font-size: 4.4em;
@@ -131,10 +119,6 @@ section.intro h2 strong {
   color: #4EA2B9;
   font-size: 1.51em;
   line-height: .8em;
-}
-
-section.intro  p {
-  color: #555555;
 }
 
 section.terminal pre.literal {
@@ -161,6 +145,7 @@ section.secret strong {
 section.recap > h1,
 section.recap > h2 {
   margin: 0;
+  text-transform: uppercase;
   color: #005498;
   font-size: 2em;
   border: 15px solid #005498;
@@ -180,28 +165,15 @@ section.recap > h2 {
   padding: 10px;
 }
 
-section.recap .line-through:after {
-  content:" ";
-  height:0.2em;
-  width:90%;
-  background-color:#FFFF00;
-  opacity: 0.8;
-  position:absolute;
-  right: 5%;
-  top: 50%;
-  -webkit-transform: rotate(10deg);
-  -moz-transform: rotate(10deg);
-  -o-transform: rotate(10deg);
-  transform: rotate(10deg);
-}
-
 section.recap hgroup h2 {
   color: #222222;
+  text-transform: uppercase;
   font-size: 4.4em;
 }
 
 section.recap hgroup h3 {
   color: #BA3925;
+  text-transform: uppercase;
   font-size: 3em;
 }
 
@@ -232,6 +204,7 @@ section.ending {
 section.ending > h2 {
   color: #ffffff;
   font-size: 4em;
+  text-transform: lowercase;
 }
 
 section.ending > h2.name {
@@ -841,14 +814,6 @@ ol {
   margin-left: 1.5em;
   font-size: 1.5em;
   margin-bottom: .5em;
-}
-
-ol.loweralpha {
-  font-size: 0.9em;
-}
-
-ol.lowerroman {
-  font-size: 0.9em;
 }
 
 .conum {
